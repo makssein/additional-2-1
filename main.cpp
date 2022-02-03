@@ -1,6 +1,6 @@
 #include <iostream>
 
-bool check_palindrome(int i, std::string str){
+bool check_palindrome(int i, std::string &str){
     int len = str.length();
     if(i >= len/2) return false;
 
